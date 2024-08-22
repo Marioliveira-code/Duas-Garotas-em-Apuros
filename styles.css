@@ -20,7 +20,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #F2E6DF; /* Clarinho */
+    background-color: #F2D5A9; /* Clarinho */
     padding: 20px 0;
 }
 
@@ -29,6 +29,7 @@ header {
     color: #D95B5B; /* Vermelho Max */
     text-align: center;
 }
+
 
 nav ul {
     display: flex;
@@ -72,7 +73,7 @@ nav ul li a:hover {
 }
 
 .btn {
-    background-color: #FF6F61;
+    background-color: #D1001D;
     color: #FFF;
     padding: 10px 20px;
     text-decoration: none;
@@ -132,6 +133,53 @@ nav ul li a:hover {
 
 /* Seção de Depoimentos */
 .testimonials {
+    margin: 50px 0;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.testimonial-text {
+    max-width: 600px;
+    text-align: center;
+    color: #555;
+}
+
+.testimonial-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    color: #333;
+}
+.testimonials {
     background-color: #D9AE30; /* Amarelo suave */
     padding: 60px 0;
 }
@@ -159,14 +207,51 @@ nav ul li a:hover {
 }
 
 .testimonial-item h4 {
-    color: #7B5B3E;
+    color: #C5A267;
     font-weight: 600;
 }
 
+.owners {
+    margin: 50px 0;
+    text-align: center;
+    background-color: #2A2A2A;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.owners h2 {
+    font-size: 2em;
+    color: #F2D5A9;
+    margin-bottom: 20px;
+}
+
+.owner-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.owner-info img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.owner-info .text {
+    max-width: 600px;
+    text-align: left;
+    color: #F2D5A9;
+}
+
+.owner-info p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
 /* Rodapé */
 footer {
-    background-color: #7B5B3E;
-    color: #FFF;
+    background-color: #F2D5A9;
+    color: #2A2A2A;
     padding: 40px 0;
     text-align: center;
 }
@@ -188,7 +273,7 @@ footer h3 {
 
 .social-media a {
     text-decoration: none;
-    color: #F2E6DF;
+    color: #D1001D;
     transition: color 0.3s;
 }
 
@@ -207,7 +292,7 @@ footer h3 {
 
 .newsletter button {
     padding: 10px 20px;
-    background-color: #FF6F61;
+    background-color: #D1001D;
     color: #FFF;
     border: none;
     border-radius: 5px;
