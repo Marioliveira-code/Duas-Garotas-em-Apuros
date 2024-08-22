@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #FFF9E1; /* Cor de fundo cremosa */
+    background-color: #F2D5A9; /* Cor de fundo cremosa */
     color: #333;
     line-height: 1.6;
 }
@@ -20,13 +20,13 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #FFC1CC; /* Rosa suave */
+    background-color: #F2E6DF; /* Clarinho */
     padding: 20px 0;
 }
 
 .logo h1 {
     font-family: 'Lobster', cursive;
-    color: #7B5B3E; /* Marrom suave */
+    color: #D95B5B; /* Vermelho Max */
     text-align: center;
 }
 
@@ -54,7 +54,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background-color: #A0D7E7; /* Azul claro */
+    background-color: #D95B5B; /* Vermelhor Max */
     padding: 60px 0;
     text-align: center;
     color: #FFF;
@@ -132,7 +132,7 @@ nav ul li a:hover {
 
 /* Seção de Depoimentos */
 .testimonials {
-    background-color: #F7E39A; /* Amarelo suave */
+    background-color: #D9AE30; /* Amarelo suave */
     padding: 60px 0;
 }
 
@@ -188,7 +188,7 @@ footer h3 {
 
 .social-media a {
     text-decoration: none;
-    color: #FFC1CC;
+    color: #F2E6DF;
     transition: color 0.3s;
 }
 
