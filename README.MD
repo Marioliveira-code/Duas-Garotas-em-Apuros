@@ -29,7 +29,7 @@ Este projeto consiste em uma página web que simula uma loja de cupcakes, aprese
     ```
 2. **Acesse o Diretório do Projeto**:
     ```bash
-    cd repositorio-loja-cupcakes
+    cd Duas-Garotas-em-Apuros
     ```
 
 3. **Abra o Arquivo `index.html`**:
