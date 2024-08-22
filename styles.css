@@ -1,0 +1,245 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #FFF9E1; /* Cor de fundo cremosa */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #FFC1CC; /* Rosa suave */
+    padding: 20px 0;
+}
+
+.logo h1 {
+    font-family: 'Lobster', cursive;
+    color: #7B5B3E; /* Marrom suave */
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #7B5B3E;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FF6F61; /* Vermelho vibrante */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #A0D7E7; /* Azul claro */
+    padding: 60px 0;
+    text-align: center;
+    color: #FFF;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #FF6F61;
+    color: #FFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #E6554F;
+}
+
+/* Galeria de Cupcakes */
+.gallery {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    color: #7B5B3E;
+    margin-bottom: 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+    transform: translateY(-10px);
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.gallery-item h3 {
+    font-size: 1.2rem;
+    color: #7B5B3E;
+    margin-bottom: 10px;
+}
+
+.gallery-item p {
+    font-size: 1rem;
+    color: #FF6F61;
+}
+
+/* Seção de Depoimentos */
+.testimonials {
+    background-color: #F7E39A; /* Amarelo suave */
+    padding: 60px 0;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    color: #7B5B3E;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonial-item {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.testimonial-item p {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.testimonial-item h4 {
+    color: #7B5B3E;
+    font-weight: 600;
+}
+
+/* Rodapé */
+footer {
+    background-color: #7B5B3E;
+    color: #FFF;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+.footer-info,
+.social-media,
+.newsletter {
+    margin-bottom: 20px;
+}
+
+.footer-info p,
+.social-media a {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #FFC1CC;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #FF6F61;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #FF6F61;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #E6554F;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .gallery h2,
+    .testimonials h2,
+    footer h3 {
+        font-size: 1.5rem;
+    }
+}
